@@ -1,0 +1,41 @@
+.container-reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+.input-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-des input{
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px black solid;
+}
+.button-des{
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+.button-des button{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+.button-des button:hover{
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+}
